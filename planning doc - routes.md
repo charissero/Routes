@@ -28,14 +28,18 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 
 ### Options Considered - What are some other customer options or leading products that address the same needs?
-> Join Cycling Workout Planner: Recommends fitness activities based on your personal menstral cycle timeline (similar concept of personalising what/how an activity is undertaken based on the users health).
-> RidewithGPS: gives inghts into elevation of different landscapes 
+> Join Cycling Workout Planner: Recommends fitness activities based on your personal menstral cycle timeline (similar concept of personalising what/how an activity is undertaken based on the users health)
+
+> RidewithGPS: Gives inghts into elevation of different landscapes 
 
 ### Expected Risks
-- Keeping data on different routes, conditions, roadworks etc updated 
-- GDPR
-- Accuracry of adapted route and user response to the new route
-- Using multiple API's with potentially different data formats
+> Keeping data on different routes, conditions, roadworks etc updated 
+
+> GDPR
+
+> Accuracry of adapted route and user response to the new route
+
+> Using multiple API's with potentially different data formats
 
 ## Project Scope
 
