@@ -41,6 +41,8 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 > Using multiple API's with potentially different data formats
 
+> Keeping within the implementation scope  
+
 ## Project Scope
 
 
