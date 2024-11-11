@@ -12,16 +12,16 @@
 ## Business Case
 
 ### Problem statement
-Cyclists in the hilly region of Bristol may face different unexpected physical strains like steep hills, new road conditions thus narrowing the path and heightened traffic which can cause difficulty and safety concerns when travelling. Though some apps focus on cycling with insights on the landscape and other apps focused on the health of the user, there is a lack of integration between the two elements that provide real-time, adaptive guidance  considering both personal health and current travel conditions, informing users of how best to approach the travel. This lack of integration can leave cycling as an unenjoyable last resort, as opposed to a prime option for travel and leisure.
+Cyclists in the hilly region of Bristol may face different unexpected physical strains like steep hills, new road works thus narrowing the path and heightened traffic which can cause difficulty and safety concerns when travelling. Whilst other apps might focus on either user health or landscape insights, they do not combine both elements in one app to give personalised assistance on ones travel. This lack of integration and support can leave cycling as an unenjoyable last resort, as opposed to a prime option for travel and leisure.
 
 ### Business benefit - outcomes
-> Higher user engagement: More users of different abilities/demographics encouraged to used routes regularly as a personalised way to get around that is specific to they’re needs
+> Higher user engagement: Wider range of users (different abilities/demographics etc) encouraged to used routes regularly as a personalised way to get around that is specific to they’re needs
 
 > Sustainability: Cycling with routes makes greener decisions easier i.e choosing to cycle over  alternative modes of transport that emit greenhouse gases
 
 > Fitness: Users able to become fitter as they choose cycling with routes, which can help with any underlying conditions they may have or other goals 
 
-> Revenue: Competitive edge leading to more revenue
+> Premium features: Offline mapping 
 
 
 ### Options Considered - What are some other customer options or leading products that address the same needs?
@@ -30,15 +30,15 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 > RidewithGPS: Gives inghts into elevation of different landscapes 
 
 ### Expected Risks
-> Keeping data on different routes, conditions, roadworks etc updated 
+> Accurate Data: Making sure all variables are constantly up to date icl traffic, routes, road works etc
 
-> GDPR
+> Data protection: GDPR
 
-> Accuracry of adapted route and user response to the new route
+> User experince: User response to adapted routes 
 
-> Using multiple API's with potentially different data formats
+> Integration of multiple API's 
 
-> Keeping within the implementation scope  
+> Feasibility and Scope management  
 
 ## Project Scope
 
