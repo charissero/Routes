@@ -15,6 +15,10 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
+    
+ User 1 has a history of Anemia and can get tired on longer journeys. With it set to rain in 10 minutes, traffic is predicted to increase by 15%, prolonging user 1's journey to 1 hour instead of 30 minutes, with two steep hills along the way. Routes adapts User 1's journey : On this route User 1 will have a pitstop where they can rest inside a cafe before continuing, and there will only be one hill ahead instead of two. This route will take 35 minutes excluding the rest time. There will also be information about the elevation of that hill, how far the pitstop is from where they are currently, hydration and when the rain will stop etc. 
+
+
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
