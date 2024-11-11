@@ -1,8 +1,10 @@
 # Project Proposal
 "Routes" is a cycling navigation app that provides personalised travel assistance based on :
 
- > User Health History: Incl High blood pressure, Annemia, Asthma etc 
+ > User Health History: Incl High blood pressure, Annemia, Asthma etc
+
  > Live Monitored Healh Data : Incl Heart rate, Energy level etc
+
  > Analysis of Current Landscape Conditions : Incl Hill gradients, Weather and Road works etc
 
 "Routes" reccomended route will adapt in real time based on these factors above, to provide the most accomodating and safe journey for the user including suggested pit stops for rest and additional information, for the joruney ahead. This makes cycling in Bristol more personal, accesible and safer giving our users a new confidence and empowering others in different demographics (older, beginner, guardians of children - with the child being the customer etc) to start cycling too, by eliminating any previous terrain fears. As a result the app will promote a healthier and more active community, not just supporting the individual but evolving the culture of cycling in Bristol.
