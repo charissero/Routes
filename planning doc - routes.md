@@ -69,7 +69,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
  > User data : Collect, proccess and store user information like number, email, route preferances and contacts including SOS contacts
 
 
- > Maintence : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
+ > Maintenance : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
 
 
 ![3083DDBC-764F-48CF-B1BA-0A0AB4808C9A](https://github.com/user-attachments/assets/5bef6625-fdba-40ee-bd28-cb17c73024b7)
