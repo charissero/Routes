@@ -53,7 +53,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
  
  Traffic API - Showing past, present and future traffic insights
  
- Mapping and Elevation API - Key element in route reccomendations and showing landscape insights
+ Mapping and Elevation API - Key element in route recommendations and showing landscape insights
 
 
  > Mobile style :
@@ -63,10 +63,10 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
  Compatibility - App compatible with mobiles
 
 
- > Wearable technology : To monitor live health e.g stammina levels
+ > Wearable technology : To monitor live health e.g stamina  levels
 
 
- > User data : Collect, proccess and store user information like number, email, route preferances and contacts including SOS contacts
+ > User data : Collect, process and store user information like number, email, route preferences and contacts including SOS contacts
 
 
  > Maintenance : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
