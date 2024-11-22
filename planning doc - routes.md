@@ -46,6 +46,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 
 > API's involved :
+
  Health API - Showing user's health history
 
  Weather API - Showing weather past, present and future weather conditions 
@@ -56,6 +57,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 
  > Mobile style :
+
  UI Design - Ensure inclusivity by making app very easy to navigate
 
  Compatibility - App compatible with mobiles
