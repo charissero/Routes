@@ -46,19 +46,26 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 
 > API's involved :
- Health API - Showing user's health history 
+ Health API - Showing user's health history
+
  Weather API - Showing weather past, present and future weather conditions 
+ 
  Traffic API - Showing past, present and future traffic insights
+ 
  Mapping and Elevation API - Key element in route reccomendations and showing landscape insights
 
 
  > Mobile style :
- UI Design - Ensure inclusivity by making app very easy to navigate 
+ UI Design - Ensure inclusivity by making app very easy to navigate
+
  Compatibility - App compatible with mobiles
+
 
  > Wearable technology : To monitor live health e.g stammina levels
 
+
  > User data : Collect, proccess and store user information like number, email, route preferances and contacts including SOS contacts
+
 
  > Maintence : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
 
