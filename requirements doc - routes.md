@@ -24,9 +24,9 @@ UC1 Charisse - User 1 has a history of Anemia and can get tired on longer journe
 | **Description** | I want to get home as quickly as possible in the least strenious way but I also want a pitstop on the way in a park |
 | **Actors** | Cyclist |
 | **Assumptions** | User is signed in
-| **Steps** | 1. Input text prompt 2. Create custom route 3. Display route and it's features e.g pitstop 4. prompt User to accept or decline route 5. Save route |
-| **Variations** | User declines route 1. Display another alternative route 2. prompt User to accept or decline route |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Steps** | 1. Input text prompt 2. Create custom route from database 3. Display route and it's features e.g pitstop 4. prompt User to accept or decline route 5. Save route(if route was accepted) |
+| **Variations** | 4. User declines route |
+| **Non-functional** | 1.The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), 2. Based on this alter the route 3. Display the new route 3. Prompt User to accept or decline the new route|
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
