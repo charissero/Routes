@@ -16,16 +16,16 @@ TODO: Describe each use case (at least one per team member).
     Summarise these using the use-case template below.
 
     
- User 1 has a history of Anemia and can get tired on longer journeys. With it set to rain in 10 minutes, traffic is predicted to increase by 15%, prolonging user 1's journey to 1 hour instead of 30 minutes, with two steep hills along the way. Routes adapts User 1's journey : On this route User 1 will have a pitstop where they can rest inside a cafe before continuing, and there will only be one hill ahead instead of two. This route will take 35 minutes excluding the rest time. There will also be information about the elevation of that hill, how far the pitstop is from where they are currently, hydration and when the rain will stop etc. 
+UC1 Charisse - User 1 has a history of Anemia and can get tired on longer journeys. With it set to rain in 10 minutes, traffic is predicted to increase by 15%, prolonging user 1's journey to 1 hour instead of 30 minutes, with two steep hills along the way. Routes adapts User 1's journey : On this route User 1 will have a pitstop where they can rest inside a cafe before continuing, and there will only be one hill ahead instead of two. This route will take 35 minutes excluding the rest time. There will also be information about the elevation of that hill, how far the pitstop is from where they are currently, hydration and when the rain will stop etc. 
 
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC1 | UC1: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | I want to get home as quickly as possible in the least strenious way but I also want a pitstop on the way in a park |
+| **Actors** | Cyclist |
+| **Assumptions** | User is signed in
+| **Steps** | 1. Input text prompt 2. Create custom route 3. Display route and it's features e.g pitstop 4. prompt User to accept or decline route 5. Save route |
+| **Variations** | User declines route 1. Display another alternative route 2. prompt User to accept or decline route |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
