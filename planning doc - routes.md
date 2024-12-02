@@ -3,11 +3,11 @@
 
 - User Health History: Incl High blood pressure, Annemia, Asthma etc
 
-- Live Monitored Healh Data : Incl Heart rate, Energy level etc
+- (Optional) Live Monitored Healh Data : Incl Heart rate, Energy level etc
 
 - Bristol Cycle Network : Incl Flatter hills, Pitstops, Parks etc
 
-"Routes" will account for the users health history, current live metrics and how they're feeling at that time, to provide the most accomodating and safe journey for the user including suggested pit stops for rest and additional information, for the jouruney ahead. This makes cycling in Bristol more personal, accessible and safer giving our users a new confidence and empowering others in different demographics (older, beginner, guardians of children - with the child being the customer etc) to start cycling too, by eliminating any previous terrain fears. As a result the app will promote a healthier and more active community, not just supporting the individual but evolving the culture of cycling in Bristol.
+"Routes" will account for the users health history, (optional) current live metrics and how they're feeling at that time, to provide the most accomodating and safe journey for the user including suggested pit stops for rest and additional information, for the jouruney ahead. This makes cycling in Bristol more personal, accessible and safer giving our users a new confidence and empowering others in different demographics (older, beginner, guardians of children - with the child being the customer etc) to start cycling too, by eliminating any previous terrain fears. As a result the app will promote a healthier and more active community, not just supporting the individual but evolving the culture of cycling in Bristol.
 
 ## Business Case
 
@@ -22,7 +22,6 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - Fitness: Users able to become fitter as they choose cycling with routes, which can help with any underlying conditions they may have or other goals 
 
 - Premium features: Offline mapping 
-
 
 ### Options Considered - Below describes two leading products that address similar issues
 - "JOIN" is a fitness app helping to improve cycling performance through adaptive training plans, with one of the features being a menstrual cycle tracker from which suggested activity is based on. However "JOIN" focuses more on performance and training.
@@ -42,35 +41,37 @@ Purpose:
 
 Audience:
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
-- Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
 Functionality :
-- During onboarding the app will allow users to input their :
-  1. Health history data (diabetes, asthma, annemia etc)
-  2. User contact information including number, contacts and emergancy SOS
-  3. Personal information concerning age, ethnicity, weight etc
-  4. Cycling preferences like parks, no hills etc
- - The app will use the Bristol Cycle Networks dataset to provide route recommendations based on user-specific constraints (e.g., stamina, health, or terrain preferences).
-The app will prompt users for feedback on their condition before each trip to refine route suggestions.
+- During onboarding the app will allow users to input their : 
+  1. User contact information including name, number, emergancy contacts, email and address 
+  2. Health history data (diabetes, asthma, annemia etc)
+  3. Personal information concerning age, ethnicity, gender, weight etc
+  5. Cycling landscape preferences like parks, no hills etc
+  6. Optional syncing with wearable technology to monitor live metrics e.g stammina levels
+ - This information will curate their User profile - which can be changed at any point
+ - Opendata Bristol : The app will use a Bristol Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints (e.g. how they're feeling, health history and terrain preferences).
 
-  
 Interface: 
-The user interface will include
-UI Design - Ensure inclusivity by making app very easy to navigate
-Compatibility - App compatible with mobiles
+The app interface will feature :
+1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
+2. An inital form for collecting onboarding information
+3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling i.e energised, tired, wants fresh air etc
+4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc 
 
-- Data handling :
-Collect, process and store user information like number, email, route preferences and contacts including SOS contacts
+Data handling :
+Collect, process, store and use user data responsibly in alignement with data privacy laws
 
- - Technology :
-HTML & JavaScript for UI, Route display and real time update intergration from different sources i.e weather data etc
-C# for user profles, route calculations, processing data and communication with various API's
+Technology :
+The app will be developed using :
+1. HTML & JavaScript for UI, route display and interaction
+2. CSS for data processing and user profiles
+
+Maintenance : 
+1. Maintainer to update the app (with any changes in laws, API etc) and manage the app 
+2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
 
- - Maintenance : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
-
-
-![3083DDBC-764F-48CF-B1BA-0A0AB4808C9A](https://github.com/user-attachments/assets/5bef6625-fdba-40ee-bd28-cb17c73024b7)
 
 
 
