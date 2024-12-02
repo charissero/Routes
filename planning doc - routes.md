@@ -63,7 +63,8 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
 
 >Functionality :
-During onboarding the app will allow users to input their :
+
+- During onboarding the app will allow users to input their :
 1. User contact information including name, number, emergancy contacts, email and address 
 2. Health history data (diabetes, asthma, annemia etc)
 3. Personal information concerning age, ethnicity, gender, weight etc
@@ -74,7 +75,7 @@ During onboarding the app will allow users to input their :
 
 >Interface: 
 
-The app interface will feature :
+- The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding information
 3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling i.e energised, tired, wants fresh air etc
@@ -82,11 +83,11 @@ The app interface will feature :
 
 >Data handling :
 
-Collect, process, store and use user data responsibly in alignement with data privacy laws
+- Collect, process, store and use user data responsibly in alignement with data privacy laws
 
 >Technology :
 
-The app will be developed using :
+- The app will be developed using :
 1. HTML & JavaScript for UI, route display and interaction
 2. CSS for data processing and user profiles
 
