@@ -29,11 +29,11 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - Despite the strengths of "JOIN" and "RidewithGPS, they lack the comprehensive personalization, assistance and health sensitive navigation needed. This is an area "Routes" excels in ultimately providing safety, comfort and accesibility in cycling. 
 
 ### Expected Risks - Below describes expected/potential risks of the project and functionality of the app
-> Data protection: GDPR
+- Data protection: GDPR
 
-> User experience: User response to reccomended routes
+- User experience: User response to reccomended routes
 
-> Feasibility and Scope management  
+- Feasibility and Scope management  
 
 ## Project Scope
 Purpose:
@@ -43,12 +43,12 @@ Audience:
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
 
 Functionality :
-- During onboarding the app will allow users to input their : 
-  1. User contact information including name, number, emergancy contacts, email and address 
-  2. Health history data (diabetes, asthma, annemia etc)
-  3. Personal information concerning age, ethnicity, gender, weight etc
-  5. Cycling landscape preferences like parks, no hills etc
-  6. Optional syncing with wearable technology to monitor live metrics e.g stammina levels
+- During onboarding the app will allow users to input their :
+1. User contact information including name, number, emergancy contacts, email and address 
+2. Health history data (diabetes, asthma, annemia etc)
+3. Personal information concerning age, ethnicity, gender, weight etc
+5. Cycling landscape preferences like parks, no hills etc
+6. Optional syncing with wearable technology to monitor live metrics e.g stammina levels
  - This information will curate their User profile - which can be changed at any point
  - Opendata Bristol : The app will use a Bristol Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints (e.g. how they're feeling, health history and terrain preferences).
 
