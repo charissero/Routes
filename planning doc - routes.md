@@ -53,21 +53,26 @@ Functionality :
  - Opendata Bristol : The app will use a Bristol Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints (e.g. how they're feeling, health history and terrain preferences).
 
 Interface: 
-The app interface will feature :
+
+The app interface will feature -
+
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding information
 3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling i.e energised, tired, wants fresh air etc
 4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc 
 
 Data handling :
+
 Collect, process, store and use user data responsibly in alignement with data privacy laws
 
 Technology :
+
 The app will be developed using :
 1. HTML & JavaScript for UI, route display and interaction
 2. CSS for data processing and user profiles
 
 Maintenance : 
+
 1. Maintainer to update the app (with any changes in laws, API etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
