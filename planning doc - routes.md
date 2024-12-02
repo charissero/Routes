@@ -37,37 +37,37 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 > Feasibility and Scope management  
 
 ## Project Scope
+Purpose:
+- This app is designed to provide personalised travel assistance based on the users health history, current live metrics and how they are feeling that day making sure cycling is enjoyable and accessible for all
 
-> Front end : HTML & JavaScript for UI, Route display and real time update intergration from different sources i.e weather data etc
+Audience:
+- The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
+- Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
-> Backend : C# for user profles, route calculations, processing data and communication with various API's
+Functionality :
+- During onboarding the app will allow users to input their :
+  1. Health history data (diabetes, asthma, annemia etc)
+  2. User contact information including number, contacts and emergancy SOS
+  3. Personal information concerning age, ethnicity, weight etc
+  4. Cycling preferences like parks, no hills etc
+ - The app will use the Bristol Cycle Networks dataset to provide route recommendations based on user-specific constraints (e.g., stamina, health, or terrain preferences).
+The app will prompt users for feedback on their condition before each trip to refine route suggestions.
 
+  
+Interface: 
+The user interface will include
+UI Design - Ensure inclusivity by making app very easy to navigate
+Compatibility - App compatible with mobiles
 
-> API's involved :
+- Data handling :
+Collect, process and store user information like number, email, route preferences and contacts including SOS contacts
 
- Health API - Showing user's health history
-
- Weather API - Showing weather past, present and future weather conditions 
- 
- Traffic API - Showing past, present and future traffic insights
- 
- Mapping and Elevation API - Key element in route recommendations and showing landscape insights
-
-
- > Mobile style :
-
- UI Design - Ensure inclusivity by making app very easy to navigate
-
- Compatibility - App compatible with mobiles
-
-
- > Wearable technology : To monitor live health e.g stamina  levels
-
-
- > User data : Collect, process and store user information like number, email, route preferences and contacts including SOS contacts
+ - Technology :
+HTML & JavaScript for UI, Route display and real time update intergration from different sources i.e weather data etc
+C# for user profles, route calculations, processing data and communication with various API's
 
 
- > Maintenance : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
+ - Maintenance : Maintainer to update the app (with any changes in laws, API etc) and manage the app 
 
 
 ![3083DDBC-764F-48CF-B1BA-0A0AB4808C9A](https://github.com/user-attachments/assets/5bef6625-fdba-40ee-bd28-cb17c73024b7)
