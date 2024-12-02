@@ -78,9 +78,8 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding information
-3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling i.e energised, tired, wants fresh air etc
-4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc 
-
+3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling etc
+4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc
 >Data handling :
 
 - Collect, process, store and use user data responsibly in alignement with data privacy laws
@@ -88,12 +87,12 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 >Technology :
 
 - The app will be developed using :
-1. HTML & JavaScript for UI, route display and interaction
+1. HTML & JavaScript programming lanaguges for the user interface, route display and interaction
 2. CSS for data processing and user profiles
 
 >Maintenance : 
 
-1. Maintainer to update the app (with any changes in laws, API etc) and manage the app 
+1. Maintainer to update the app (with any changes in laws, API, cycle network data set etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
 ![IMG_2657](https://github.com/user-attachments/assets/61baa274-bb49-4d8f-a6c5-cd430583819e)
