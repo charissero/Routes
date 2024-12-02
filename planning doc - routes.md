@@ -36,13 +36,13 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - Feasibility and Scope management  
 
 ## Project Scope
-Purpose:
+>Purpose:
 - This app is designed to provide personalised travel assistance based on the users health history, current live metrics and how they are feeling that day making sure cycling is enjoyable and accessible for all
 
-Audience:
+>Audience:
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
 
-Functionality :
+>Functionality :
 - During onboarding the app will allow users to input their :
 1. User contact information including name, number, emergancy contacts, email and address 
 2. Health history data (diabetes, asthma, annemia etc)
@@ -52,26 +52,25 @@ Functionality :
  - This information will curate their User profile - which can be changed at any point
  - Opendata Bristol : The app will use a Bristol Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints (e.g. how they're feeling, health history and terrain preferences).
 
-Interface: 
+>Interface: 
 
-The app interface will feature -
-
+The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding information
 3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling i.e energised, tired, wants fresh air etc
 4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc 
 
-Data handling :
+>Data handling :
 
 Collect, process, store and use user data responsibly in alignement with data privacy laws
 
-Technology :
+>Technology :
 
 The app will be developed using :
 1. HTML & JavaScript for UI, route display and interaction
 2. CSS for data processing and user profiles
 
-Maintenance : 
+>Maintenance : 
 
 1. Maintainer to update the app (with any changes in laws, API etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
