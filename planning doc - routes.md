@@ -51,9 +51,9 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 - User response to reccomended routes
 
-- Feasibility and Scope management :
+> Feasibility and Scope management :
 
-> Keeping activies within the scope and getting completing everything within scope
+- Keeping activies within the scope and getting completing everything within scope
 
 ## Project Scope
 >Purpose:
