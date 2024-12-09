@@ -37,7 +37,7 @@ TODO: Describe each use case (at least one per team member).
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile |
               
-| **Variations** | 1. User requests for a route criteria that cannot be found in the database 
+| **Variations** | 3. User requests for a route criteria that cannot be found in the database 
                    2. Users geolocation is turned off
                    4. Route doesn't have a route name 
                    5. User declines route |
@@ -65,16 +65,15 @@ TODO: Describe each use case (at least one per team member).
               4. Display the saved past route along with it's route name, characteristics and 
                  status i.e  Unamed route, Canalside path, traffic free route 
               5. Prompt User to accept or decline route 
-              6. If route was accepted, save route on users profile - on User profile display 
-                 as "Route taken again on (date)" |
+              6. If route was accepted, save route on users profile - on User profile save as 
+                 "Route taken again on (date)" |
               
-| **Variations** | 1. User requests for a route criteria that cannot be found in the database 
-                   2. Users geolocation is turned off
+| **Variations** | 2. Users geolocation is turned off
                    3. Route described isn't in the User profile i.e hasn't been saved
                    4. Route doesn't have a route name 
                    5. User declines route |
                    
-| **Non-functional** | 1. The system should display "This route cannot be found, what about x routes" and suggest three similar routes that can be found in the database and collect feedback from user. 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route. |
+| **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 3. System should display error message "Saved route not found" and suggest a route from database that matches the requested route preferance 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
