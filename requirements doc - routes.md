@@ -20,8 +20,11 @@ TODO: Describe each use case (at least one per team member).
 | -------------------------------------- | ------------------- |
 
 | **Description** | As an international student, I want a personalised route today where I can cycle in an urban area to sight-see as I go home |
+
 | **Actors** | International student |
-| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation
+
+| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation |
+
 | **Steps** | 1. User inputs request to go through an urban area on the way home for 
                  sightseeing purposes
               2. System requests for access to geolocation
@@ -31,10 +34,12 @@ TODO: Describe each use case (at least one per team member).
                  path in ubran area, traffic free route 
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile |
+              
 | **Variations** | 1. User requests for a route criteria that cannot be found in the database 
                    2. Users geolocation is turned off
                    4. Route doesn't have a route name 
                    5. User declines route |
+                   
 | **Non-functional** | 1. The system should display "This route cannot be found, what about x  
                           routes" and suggest three similar routes that can be found in the 
                           database and collect feedback from user. 
@@ -46,6 +51,7 @@ TODO: Describe each use case (at least one per team member).
                           declined route (to find out why the user doesn't like the route), 
                           alter the route based on this, display new route and collect 
                           feedback for new route. |
+                          
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
