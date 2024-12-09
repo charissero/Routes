@@ -2,12 +2,13 @@
 
 ## User Needs
 
-### User stories
+### User stories - Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
 1. As an international student, I want personalised routes I can take around bristol depending on how I'm feeling - Charisse
-2. As a beginner, I want to know be aware of low traffic areas, so i can practise riding in a quiter environement and feel more confident doing so - Charisse
+2. As a beginner, I want to know be aware of low traffic areas, so I can practise riding in a quiter environement and feel more confident doing so - Charisse
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+1. Cyclists (of all levels incl beginner)
+2. People new to bristol
 
 ### Use Cases
 TODO: Describe each use case (at least one per team member).
@@ -20,12 +21,20 @@ UC1 Charisse - User 1 has a history of Anemia and can get tired on longer journe
 
 | UC1 | UC1: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | I want to get home as quickly as possible in the least strenious way but I also want a pitstop on the way in a park |
-| **Actors** | Cyclist |
-| **Assumptions** | User is signed in
-| **Steps** | 1. Input text prompt 2. Create custom route from database 3. Display route and it's features e.g pitstop 4. prompt User to accept or decline route 5. Save route(if route was accepted) |
-| **Variations** | 4. User declines route |
-| **Non-functional** | 1.The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), 2. Based on this alter the route 3. Display the new route 3. Prompt User to accept or decline the new route|
+| **Description** | As an international student, I want a personalised route today where I can be in an urban area to sight see as I go home |
+| **Actors** | International student |
+| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation
+| **Steps** | 1. User inputs request to go through an urban area on the way home for sightseeing purposes
+              2. System requests for access to geolocation
+              3. If access granted, system will retrieve nearest route from the database that matches the criteria
+              4. Display route name, characteristics and status i.e  Avon cycle way, Cycle path in ubran area, traffic free route 
+              5. Prompt User to accept or decline route 
+              5. If route was accepted, save route on users profile |
+| **Variations** 1. User requests for a route criteria that cannot be found in the database 
+                 2. User declines route
+                 4. Route doesn't have a route name 
+                 5. User declines route |
+| **Non-functional** | 1. The system should...... 2.The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route 
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
