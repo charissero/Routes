@@ -40,17 +40,7 @@ TODO: Describe each use case (at least one per team member).
                    4. Route doesn't have a route name 
                    5. User declines route |
                    
-| **Non-functional** | 1. The system should display "This route cannot be found, what about x  
-                          routes" and suggest three similar routes that can be found in the 
-                          database and collect feedback from user. 
-                       2. The system should prompt the User to re-enable geolocation and guide 
-                          them to the device’s settings. 
-                       4. System should display "Unamed route", the characteristic and the 
-                          status.
-                       5. The system should generate a text prompt for feedback on the 
-                          declined route (to find out why the user doesn't like the route), 
-                          alter the route based on this, display new route and collect 
-                          feedback for new route. |
+| **Non-functional** | 1. The system should display "This route cannot be found, what about x routes" and suggest three similar routes that can be found in the database and collect feedback from user. 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
