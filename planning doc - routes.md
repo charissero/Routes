@@ -95,6 +95,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 1. Maintainer to update the app (with any changes in laws, API, cycle network data set etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
+The context diagram below describes all the elements in scope and elements that will influence the app :
 ![IMG_2657](https://github.com/user-attachments/assets/61baa274-bb49-4d8f-a6c5-cd430583819e)
 
 
