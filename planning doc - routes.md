@@ -43,11 +43,11 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - Despite the strengths of "JOIN" and "RidewithGPS, they lack the comprehensive personalization, assistance and health sensitive navigation needed. This is an area "Routes" excels in ultimately providing safety, comfort and accesibility in cycling. 
 
 ### Expected Risks - Below describes expected/potential risks of the project and functionality of the app
-> Data protection:
+> Data protection :
 
 - GDPR
 
-> User experience:
+> User experience :
 
 - User response to reccomended routes
 
