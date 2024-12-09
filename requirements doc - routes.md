@@ -3,9 +3,8 @@
 ## User Needs
 
 ### User stories
-1. As an older lady, I want to use this personalised cycling system in exercise to keep fit so I won’t unconsciously push myself too hard - Charisse
-2. As someone with anaemia who gets tired in longer journeys, I want to use routes to still want to enjoy the scenic landscape of Bristol, without going on unnecessarily strenuous routes for me - Charisse
-3. As a beginner, I want to know how the weather will affect my travel including traffic, cautions incl cycling up and down hills etc as well as guidance on how best to approach this, so I feel more confident to actually get out there - Charisse
+1. As an international student, I want personalised routes I can take around bristol depending on how I'm feeling - Charisse
+2. As a beginner, I want to know be aware of low traffic areas, so i can practise riding in a quiter environement and feel more confident doing so - Charisse
 
 ### Actors
 TODO: List and describe the actors/users for this product.
