@@ -18,6 +18,7 @@ TODO: Describe each use case (at least one per team member).
 | UC1 | UC1: Recieve Cycle path in an urban area | Author: Charisse Oppon |
 
 | -------------------------------------- | ------------------- |
+
 | **Description** | As an international student, I want a personalised route today where I can cycle in an urban area to sight-see as I go home |
 | **Actors** | International student |
 | **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation
