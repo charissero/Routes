@@ -37,7 +37,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 - Offline mapping 
 
-### Options Considered - Below describes two leading products that address similar issues
+### Options Considered - Below describes two leading products that address similar issues & technical options I've considered on how to solve the problem (TODO!)
 - "JOIN" is a fitness app helping to improve cycling performance through adaptive training plans, with one of the features being a menstrual cycle tracker from which suggested activity is based on. However "JOIN" focuses more on performance and training.
 - Similarly, "RidewithGPS" provides insights into cycling networks and landscape conditions i.e elevation profiles etc, with it's focus more on offering optimal route choices for cyclists with provided terrain challenges.
 - Despite the strengths of "JOIN" and "RidewithGPS, they lack the comprehensive personalization, assistance and health sensitive navigation needed. This is an area "Routes" excels in ultimately providing safety, comfort and accesibility in cycling. 
