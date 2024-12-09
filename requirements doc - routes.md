@@ -16,6 +16,7 @@ TODO: Describe each use case (at least one per team member).
     Summarise these using the use-case template below..
 
 | UC1 | UC1: Recieve Cycle path in an urban area | Author: Charisse Oppon |
+
 | -------------------------------------- | ------------------- |
 | **Description** | As an international student, I want a personalised route today where I can cycle in an urban area to sight-see as I go home |
 | **Actors** | International student |
