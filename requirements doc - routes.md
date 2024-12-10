@@ -30,10 +30,10 @@ TODO: Describe each use case (at least one per team member).
 | **Steps** | 1. User inputs request to go through an urban area on the way home for 
                  sightseeing purposes
               2. System requests for access to geolocation
-              3. If access granted, system will retrieve nearest route from the database that 
-                 matches the criteria
-              4. Display route name, characteristics and status i.e  Avon cycle way, Cycle 
-                 path in ubran area, traffic free route 
+              3. If access granted, system will retrieve nearest route details from the database 
+                 that matches the criteria
+              4. System will format and display route details i.e route name, characteristics and 
+                 status - Avon cycle way, Cycle path in ubran area, traffic free route 
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile |
               
@@ -62,7 +62,7 @@ TODO: Describe each use case (at least one per team member).
               2. System requests for access to geolocation
               3. If access granted, system will retrieve the requested past saved route from 
                  User profile 
-              4. Display the saved past route along with it's route name, characteristics and 
+              4. Display the saved past route details i.e route name, characteristics and 
                  status i.e  Unamed route, Canalside path, traffic free route 
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile - on User profile save as 
