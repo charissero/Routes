@@ -88,6 +88,15 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
+| UC1 | Authored by Charisse Oppon |
+FR.1 The system **must** get User geolocation from geolocation object.
+FR.2 The system **must** retrieve nearest route details that matches criteria from database ‘Open data Bristol’.
+FR.3 The system **must** format retrieved route details i.e route name, characteristics and status in user friendly way for display from database ‘Open data Bristol’.
+FR.4 The system **should** send formatted route details to the boundary results object.
+FR.5 The system **should** save the route details (if accepted) to User profile entity.
+
+| UC2 | Authored by Charisse Oppon |
+
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
