@@ -94,6 +94,10 @@ TODO: Your Use-Case diagram should include all use-cases.
 
 | UC2 | Authored by Charisse Oppon |
 
+- FR.1 The system **must** get User geolocation from geolocation object.
+- FR.2 The system **must** retrieve requested saved past route from User profile.
+- FR.3 The system **must** send requested saved past route to the boundary results object.
+- FR.4 The system **could** save the requested past route again (if accepted), to User profile as “Route taken again on (date)”.
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
