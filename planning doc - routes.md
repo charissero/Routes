@@ -1,24 +1,10 @@
 # Project Proposal
-"Routes" is a cycling navigation app that provides personalised travel assistance based on :
-
-> User Health History :
-
-- Incl High blood pressure, Annemia, Asthma etc
-
-> (Optional) Live Monitored Healh Data :
-
-- Incl Heart rate, Energy level etc
-
-> Bristol Cycle Network :
-
-- Incl Flatter hills, Pitstops, Parks etc
-
-"Routes" will account for the users health history, (optional) current live metrics and how they're feeling at that time, to provide the most accomodating and safe journey for the user including suggested pit stops for rest and additional information, for the jouruney ahead. This makes cycling in Bristol more personal, accessible and safer giving our users a new confidence and empowering others in different demographics (older, beginner, guardians of children - with the child being the customer etc) to start cycling too, by eliminating any previous terrain fears. As a result the app will promote a healthier and more active community, not just supporting the individual but evolving the culture of cycling in Bristol.
+"Routes" is a cycling navigation app that provides personalised travel assistance based on how the user is feeling/what they're riding prefrence is that day whether it be through an urban park, or a quiter riverside etc. All routes are sourced from on the Opendata bristol "Sustrain cycle network". This makes cycling in Bristol more personal while promoting a healthier and greener community.
 
 ## Business Case
 
 ### Problem statement
-Cyclists in the hilly region of Bristol may face different unexpected physical strains like steep hills, very narrow roads and poorly defined cycle paths that may raise safety concerns when travelling. Whilst other apps might focus on either user health or landscape insights, they do not combine both elements in one app to give personalised assistance on ones travel. This lack of integration and support can leave cycling as an unenjoyable last resort, as opposed to a prime option for travel and leisure.
+Cyclists in the hilly region of Bristol may face different unexpected physical strains like steep hills, very narrow roads and poorly defined cycle paths that may raise safety concerns when travelling. This lack of of focus on cyclists can leave cycling as an unenjoyable last resort, as opposed to a prime option for travel and leisure.
 
 ### Business benefit - Below are High level benefits to "Routes"
 >Higher user engagement :
@@ -37,10 +23,10 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 - Offline mapping 
 
-### Options Considered - Below describes two leading products that address similar issues & technical options I've considered on how to solve the problem (TODO!)
-- "JOIN" is a fitness app helping to improve cycling performance through adaptive training plans, with one of the features being a menstrual cycle tracker from which suggested activity is based on. However "JOIN" focuses more on performance and training.
-- Similarly, "RidewithGPS" provides insights into cycling networks and landscape conditions i.e elevation profiles etc, with it's focus more on offering optimal route choices for cyclists with provided terrain challenges.
-- Despite the strengths of "JOIN" and "RidewithGPS, they lack the comprehensive personalization, assistance and health sensitive navigation needed. This is an area "Routes" excels in ultimately providing safety, comfort and accesibility in cycling. 
+### Options Considered - Below are other options that were considered in order to solve the problem statement :
+1. An app that has elevation, traffic and weather insights to accurately advice users on what is ahead and give them advice on how best to approach the journey including planned pitstops.
+2. An app with insights into each users health history and current live metrics, of which *Routes* would then suggest the best route for - considering any terrain challenges ahead.
+Despite the strengths of **option 1** and **option 2**, the chosen direction for *Routes* in its simplicity, focuses on providing diverse way to get around bristol that fit the users preferance that day, whether they would prefer to go through an urban park, or a qutier cannal - the choice is there's.
 
 ### Expected Risks - Below describes expected/potential risks of the project and functionality of the app
 > Data protection :
@@ -57,7 +43,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 ## Project Scope
 >Purpose :
-- This app is designed to provide personalised travel assistance based on the users health history, current live metrics and how they are feeling that day making sure cycling is enjoyable and accessible for all
+- This app is designed to provide personalised travel assistance based on the users riding preferance that day, with a bank full on diverse routes waiting to be riden.
 
 >Audience :
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
@@ -66,13 +52,12 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 - During onboarding the app will allow users to input their :
 1. User contact information including name, number, emergancy contacts, email and address 
-2. Health history data (diabetes, asthma, annemia etc)
-3. Personal information concerning age, ethnicity, gender, weight etc
+2. Personal information concerning age, ethnicity, gender, weight etc
 4. Cycling landscape preferences like parks, no hills etc
 5. Optional syncing with wearable technology to monitor live metrics e.g stammina levels
  - This information will curate their User profile - which can be changed at any point
- - Opendata Bristol : The app will use a Bristol Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints (e.g. how they're feeling, health history and terrain preferences).
-
+ - Opendata Bristol : The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints.
+   
 >Interface : 
 
 - The app interface will feature :
@@ -80,6 +65,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 2. An inital form for collecting onboarding information
 3. A feedback prompt to collect the user's condition before each journey i.e how they're feeling etc
 4. An interactive map for displaying suggested cycling route incl interactive icons showing what is ahead on the route like hills, parks etc
+   
 >Data handling :
 
 - Collect, process, store and use user data responsibly in alignement with data privacy laws
