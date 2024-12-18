@@ -53,9 +53,7 @@ Despite the strengths of **option 1** and **option 2**, the chosen direction for
 - During onboarding the app will allow users to input their :
 1. User contact information including name, number, emergancy contacts, email and address 
 2. Personal information concerning age, ethnicity, gender, weight etc
-4. Cycling landscape preferences like parks, no hills etc
-5. Optional syncing with wearable technology to monitor live metrics e.g stammina levels
- - This information will curate their User profile - which can be changed at any point
+4. Cycling landscape preferences like parks, no hills etc which will train the algorithm (however users will be asked each time what they would like that day via prompts).
  - Opendata Bristol : The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints.
    
 >Interface : 
@@ -78,11 +76,12 @@ Despite the strengths of **option 1** and **option 2**, the chosen direction for
 
 >Maintenance : 
 
-1. Maintainer to update the app (with any changes in laws, API, cycle network data set etc) and manage the app 
+1. Maintainer to update the app (with any changes in laws, cycle network data set etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
 
 The context diagram below describes all the elements in scope and elements that will influence the app :
-![IMG_2657](https://github.com/user-attachments/assets/61baa274-bb49-4d8f-a6c5-cd430583819e)
+![IMG_2690](https://github.com/user-attachments/assets/e18f7b10-c62c-43ac-9a33-4e94c66cb301)
+
 
 
 
