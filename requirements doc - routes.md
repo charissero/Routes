@@ -27,15 +27,16 @@ TODO: Describe each use case (at least one per team member).
 
 | **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation |
 
-| **Steps** | 1. User inputs request to go through an urban area on the way home for 
+| **Steps** | 1. System prompts the User with "Hi (name), how are ya, what would you like today ?"
+              2. User inputs how they are and their request to go through an urban area on the way home for 
                  sightseeing purposes
-              2. System requests for access to geolocation
-              3. If access granted, system will retrieve nearest route details from the database 
+              3. System requests for access to geolocation
+              4. If access granted, system will retrieve nearest route details from the database 
                  that matches the criteria
-              4. System will format and display route details i.e route name, characteristics and 
+              5. System will format and display route details i.e route name, characteristics and 
                  status - Avon cycle way, Cycle path in ubran area, traffic free route 
-              5. Prompt User to accept or decline route 
-              6. If route was accepted, save route on users profile |
+              6. Prompt User to accept or decline route 
+              7. If route was accepted, save route on users profile |
               
 | **Variations** | 3. User requests for a route criteria that cannot be found in the database 
                    2. Users geolocation is turned off
