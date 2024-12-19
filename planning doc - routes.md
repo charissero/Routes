@@ -26,7 +26,8 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 ### Options Considered - Below are other options that were considered in order to solve the problem statement :
 1. An app that has elevation, traffic and weather insights to accurately advice users on what is ahead and give them advice on how best to approach the journey including planned pitstops.
 2. An app with insights into each users health history and current live metrics, of which *Routes* would then suggest the best route for - considering any terrain challenges ahead.
-Despite the strengths of **option 1** and **option 2**, the chosen direction for *Routes* in its simplicity, focuses on providing diverse way to get around bristol that fit the users preferance that day, whether they would prefer to go through an urban park, or a qutier cannal - the choice is there's.
+   
+- Despite the strengths of **option 1** and **option 2**, the chosen direction for *Routes* in its simplicity, focuses on providing diverse way to get around bristol that fit the users preferance that day, whether they would prefer to go through an urban park, or a qutier cannal - the choice is there's.
 
 ### Expected Risks - Below describes expected/potential risks of the project and functionality of the app
 > Data protection :
