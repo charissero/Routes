@@ -55,7 +55,7 @@ TODO: Describe each use case (at least one per team member).
 
 | **Actors** | Worker (intermediate cyclist) |
 
-| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation 4. All accepted routes are saved into Users profile |
+| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 3. App supports geolocation |
 
 | **Steps** | 1. User inputs request to take the quiet route through the park they took last 
                  Wednesday
