@@ -31,7 +31,7 @@ TODO: Describe each use case (at least one per team member).
               2. User inputs how they are and their request to go through an urban area on the way home for 
                  sightseeing purposes
               3. System requests for access to geolocation
-              4. If access granted, system will retrieve nearest route details from the database 
+              4. If access granted, system will retrieve the nearest route details from the database 
                  that matches the criteria
               5. System will format and display route details i.e route name, characteristics and 
                  status - Avon cycle way, Cycle path in ubran area, traffic free route 
