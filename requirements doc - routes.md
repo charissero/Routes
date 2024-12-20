@@ -106,5 +106,5 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 Indicate which UC the requirement comes from.
 
 - **NFR1:** All sensitive user data (e.g., geolocation, home address, number etc) **must** be encrypted both whilst being transferred and when stored in the database. **(Security)**
-- **NFR2:** In the first iteration of Routes, the system **should** fully function on all IOS devices including response times to a precision of 4 seconds which will be measured under testing with 5 users. **(Portability)**
+- **NFR2:** In the first iteration of Routes, the system **should** fully function on all IOS devices including response times to a precision of 4 seconds, which will be measured under testing with 5 users. **(Portability)**
 - **NFR3:** The user request **must** be accurately reflected in the systems suggested route output i.e distance from live location for that suggestion, the environment, qualitative noise pollution levels in the area etc. **(Reliability)**
