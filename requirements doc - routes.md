@@ -29,8 +29,7 @@ TODO: Describe each use case (at least one per team member).
 
 | **Steps** | 1. System prompts the User with "Hi (name), how are ya, what would you like today ?"
               2.System will retrieve the nearest route details from the database that matches the criteria
-              5. System will format and display route details i.e route name, characteristics and 
-                 status - Avon cycle way, Cycle path in ubran area, traffic free route 
+              5. System will format and display route name i.e Avon cycle way and route programme 
               6. Prompt User to accept or decline route 
               7. If route was accepted, save route on users profile |
               
