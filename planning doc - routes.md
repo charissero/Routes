@@ -51,7 +51,9 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 - The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
 
 >Functionality :
-- During onboarding the app will allow users to input their user contact information i.e name, number, emergancy contact(name and number), home address 
+- During onboarding the app will allow users to....
+  1. input their user contact information i.e name, number, emergancy contact(name and number), home address
+  2. Grant access to geolocation (while app is in use)
 
  - Opendata Bristol 
 The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints.
