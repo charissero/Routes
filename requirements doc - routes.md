@@ -27,7 +27,7 @@
 | **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
               2. System will request to use the user's current location via a popup, prompting user to "allow" or "don't allow"
               3. System will retrieve the nearest route details from the database that matches the criteria
-              4. System will format and display route name i.e Avon cycle way and current + destination adresses and a visual map of the route from their current to their destination
+              4. System will format and display one option with route name i.e Avon cycle way and current + destination adresses and a visual map of the route from their current to their destination
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile (without changing pages) |
               
@@ -37,7 +37,10 @@
                    4. Route doesn't have a route name 
                    5. User declines route |
                    
-| **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 3. The system should display "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on the option. 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and message prompting user to accept or decline. |
+| **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings.
+                       3. The system should display "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on the option. 
+                       4. System should display "Un-named route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route  
+                       5. The system should display 2 prompts in a pop-up i.e "Not accurate to requested" "Want a different option". Based on the option selected alter the route based, display new route and prompt for user to accept or decline route. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
@@ -46,27 +49,26 @@
 
 | -------------------------------------- | ------------------- |
 
-| **Description** | As a worker that cycles to my workplace, I want to take the quiet route through the park I took last Wednesday, to peacefully reflect on my day as I go home |
+| **Description** | As a worker that cycles to and from my workplace, I want to take the quiet route through the park I took last Wednesday, to peacefully reflect on my day as I go home |
 
 | **Actors** | Worker (intermediate cyclist) |
 
 | **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 2. App supports geolocation 2. Geolocation access granted during onboarding (while app is in use)|  |
 
-| **Steps** | 1. User inputs request to take the quiet route through the park they took last 
-                 Wednesday
+| **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
               2. System will retrieve the requested past saved route from User profile 
-              4. Display the saved past route details i.e route name, characteristics and 
-                 status i.e  Unamed route, Canalside path, traffic free route 
+              4. Format and display the saved past route details i.e route name i.e Avon cycle way, starting address + destination and a visual map of the route from the starting address to their destination
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile - on User profile save as 
                  "Route taken again on (date)" |
               
-| **Variations** | 2. Users geolocation has been turned off
-                   3. Route described isn't in the User profile i.e hasn't been saved
-                   4. Route doesn't have a route name 
-                   5. User declines route |
+| **Variations** | 2. Past saved route not recognised from the past saved database
+                   3. Route doesn't have a route name 
+                   4. User declines route |
                    
-| **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 3. System should display error message "Saved route not found" and suggest a route from database that matches the requested route preferance 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route. |
+| **Non-functional** | 2. The system should display "Past saved route not found, please try again". 
+                       3. System should display "Unamed route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route.
+                       5. The system should display prompt pop-up "Not accurate to requested" if selected, system should repeat step 2, display the route and prompt for user to accept or decline route. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
