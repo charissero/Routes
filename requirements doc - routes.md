@@ -1,44 +1,43 @@
-# Requirements
+# Requirements - Authored by Charisse
 
 ## User Needs
 
-### User stories - Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-1. As an international student, I want to recieve different personalised routes I can take to get around different parts of bristol with different scenary - Charisse
-2. As a beginner, I want to know be aware of low traffic areas, so I can practise riding in a quiter environement and feel more confident doing so - Charisse
-3. As a worker that cycles to my workplace, I want to take the quiet route through the park I took last Wednesday to peacefully reflect on my day as I go home - Charisse
+### User stories - A brief user stories to explain how various actors would interact with the system to accomplish a goal.
+1. As an international student, I want to recieve different personalised routes I canexplore different parts of bristol in my day to day life 
+2. As a beginner, I want to know be aware of low traffic areas, so I can practise riding in a quiter environement and feel more confident doing so 
+3. As a worker that cycles to and from my workplace, I want to take the quiet route through the park I took last Wednesday to peacefully reflect on my day as I go home - Charisse
 
 ### Actors
 1. Cyclists (of all levels incl beginner)
 2. Students
 3. Workers
 
-### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below..
+### Use Cases - description of usecases ID'd by UC1, UC2 etc
 
 | UC1 | UC1: Requesting to cycle on a path in an urban area | Author: Charisse Oppon |
 
 | -------------------------------------- | ------------------- |
 
-| **Description** | As an international student, I want a personalised route today where I can cycle in an urban area to sight-see as I go home |
+| **Description** | As part of my explorations, today I want to cycle through an urban park as I go home |
 
 | **Actors** | International student (beginner level cyclist) |
 
-| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 2. App supports geolocation 2. Geolocation access granted during onboarding (while app is in use)|
+| **Assumptions** | 1. User is signed in 2. User's home address is in the database already as part of onboarding 2. App supports geolocation(to find out where they are currently) 2. Geolocation access granted during onboarding (while app is in use)|
 
-| **Steps** | 1. System prompts the User with "Hi (name), how are ya, what would you like today ?"
-              2.System will retrieve the nearest route details from the database that matches the criteria
-              5. System will format and display route name i.e Avon cycle way and route programme 
-              6. Prompt User to accept or decline route 
-              7. If route was accepted, save route on users profile |
+| **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
+              2. System will request to use the user's current location via a popup, prompting user to "allow" or "don't allow"
+              3. System will retrieve the nearest route details from the database that matches the criteria
+              4. System will format and display route name i.e Avon cycle way and current + destination adresses and a visual map of the route from their current to their destination
+              5. Prompt User to accept or decline route 
+              6. If route was accepted, save route on users profile (without changing pages) |
               
-| **Variations** | 3. User requests for a route criteria that cannot be found in the database 
-                   2. Users geolocation has been turned off
+| **Variations** | 2. User declines access to their currrent location
+                   2. Users geolocation has been turned off (preventing pop up from appearing)
+                   3. Users request route criteria that cannot be found in the database 
                    4. Route doesn't have a route name 
                    5. User declines route |
                    
-| **Non-functional** | 1. The system should display "This route cannot be found, what about x routes" and suggest three similar routes that can be found in the database and collect feedback from user. 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and collect feedback for new route. |
+| **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings. 3. The system should display "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on the option. 4. System should display "Unamed route", the characteristic and the status. 5. The system should generate a text prompt for feedback on the declined route (to find out why the user doesn't like the route), alter the route based on this, display new route and message prompting user to accept or decline. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
