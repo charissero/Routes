@@ -33,14 +33,14 @@
               
 | **Variations** | 2. User declines access to their currrent location
                    2. Users geolocation has been turned off (preventing pop up from appearing)
-                   3. Users request route criteria that cannot be found in the database 
+                   3. Users requested route criteria cannot be matched in the database 
                    4. Route doesn't have a route name 
                    5. User declines route |
                    
 | **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings.
                        3. The system should display "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on the option. 
                        4. System should display "Un-named route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route  
-                       5. The system should display 2 prompts in a pop-up i.e "Not accurate to requested" "Want a different option". Based on the option selected alter the route based, display new route and prompt for user to accept or decline route. |
+                       5. The system should display 2 prompts in a pop-up i.e "Route doesn't match my criteria" and "Want a different option". Based on the option selected alter the route, display new route and prompt for user to accept or decline route. |
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
