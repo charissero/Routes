@@ -41,7 +41,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 > Feasibility and Scope management :
 
-- Keeping activies within the scope and getting completing everything within scope
+- Keeping activies within the scope 
 
 ## Project Scope
 >Purpose :
@@ -52,7 +52,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 >Functionality :
 - During onboarding the app will allow users to....
-  1. input their user contact information i.e name, number, emergancy contact(name and number), home address
+  1. Input their user contact information i.e name, number, emergancy contact(name and number), home address
   2. Grant access to geolocation (while app is in use)
 
  - Opendata Bristol 
@@ -79,6 +79,12 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 
 1. Maintainer to update the app (with any changes in laws, cycle network data set etc) and manage the app 
 2. Maintenance of the app will also include feedback collection from the bristol cyclist community 
+
+> Elements that are *not* in scope:
+1. An explore page with AI reccomended routes will not be included in this iteration
+2. Integration of weather and landscape elevation API'S will not be included in this iteration
+3. Users will not be able to manually design and save their own routes in this iteration
+4. Turn-by-turn navigation will not be included in this iteration
 
 The context diagram below describes all the elements in scope and elements that will influence the app :
 ![IMG_2690](https://github.com/user-attachments/assets/e18f7b10-c62c-43ac-9a33-4e94c66cb301)
