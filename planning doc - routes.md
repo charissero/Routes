@@ -52,7 +52,7 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 >Functionality :
 - During onboarding the app will allow users to....
-  1. Input their user contact information i.e name, number, emergancy contact(name and number), home address
+  1. Input their user contact information i.e name, number, emergancy contact(name and number), home address (with a tix box functionality giving permission for their data being stored locally on this device)
   2. Grant access to geolocation (while app is in use)
 
  - Opendata Bristol 
@@ -63,7 +63,7 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 - The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding user information
-3. Past saved routes that the user has previously ridden (stored locally on the device)
+3. Past saved routes that the user has previously ridden (stored locally on that device)
    
 >Data handling :
 
@@ -87,8 +87,8 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 4. Users will not be able to manually design and save their own routes in this iteration
 5. Turn-by-turn navigation will not be included in this iteration
 
-The context diagram below describes all the elements in scope and elements that will influence the app :
-![IMG_2690](https://github.com/user-attachments/assets/e18f7b10-c62c-43ac-9a33-4e94c66cb301)
+>The context diagram below describes all the elements in scope and elements that will influence the app :
+![Context Diagram-1 (2)](https://github.com/user-attachments/assets/b064d20f-ad28-4cbb-a6b7-89834dce6569)
 
 
 
