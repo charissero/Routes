@@ -57,7 +57,7 @@
 
 | **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
               2. System will retrieve the requested past saved route from User profile 
-              4. Format and display the saved past route details i.e route name i.e Avon cycle way, starting address + destination and a visual map of the route from the starting address to their destination
+              4. Format and display the saved past route details i.e  route name i.e Avon cycle way and their current + destination adresses with a visual map of the route.
               5. Prompt User to accept or decline route 
               6. If route was accepted, save route on users profile - on User profile save as 
                  "Route taken again on (date)" |
@@ -72,6 +72,14 @@
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
+UC: merge with the viewing of the past saved routes. Manage Past Saved Routes; basically when they click on "Alex" i.e their user profile
+
+User navigates to the past saved routes section.
+
+User can select a route to view details.
+
+User can delete a route if they no longer need it.
+
 TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
@@ -82,7 +90,7 @@ TODO: Your Use-Case diagram should include all use-cases.
 | UC1 | Authored by Charisse Oppon |
 
 - FR.1 The system **must** retrieve nearest route details that matches criteria from database ‘Open data Bristol’.
-- FR.2 The system **must** format retrieved route details i.e route name, characteristics and status in user friendly way for display from database ‘Open data Bristol’.
+- FR.2 The system **must** format retrieved route name i.e Avon cycle way from the 'Open data Bristol' database and their current + destination adresses with a visual map of the route.
 - FR.3 The system **should** send formatted route details to the boundary results object.
 - FR.4 The system **should** save the route details (if accepted) to User profile entity.
 
@@ -98,7 +106,6 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 Indicate which UC the requirement comes from 
 
 Global non-function requirements : (not tied to a specific UC)
-- **NFR1:** All sensitive user data (e.g., geolocation, home address, number etc) **must** be encrypted both whilst being transferred and when stored in the database. **(Security)**
-- **NFR2:** In the first iteration of Routes, the system **should** fully function on all IOS devices including response times to a precision of 4 seconds, which will be measured under testing with 5 users. **(Portability)**
-- **NFR3:** The user request **must** be accurately reflected in the systems suggested route output i.e distance from live location for that suggestion, the environment, qualitative noise pollution levels in the area etc. **(Reliability)**
-- **NFR4**: The system **should** provide a simple, intuitive user interface that requires no more than 5 minutes of onboarding. **(Usability)**
+- **NFR1:** All user data (e.g., geolocation, home address, number etc) **must** be encrypted both whilst being transferred and when stored in the database. **(Security)**
+- **NFR2**: The system **should** provide a simple user interface that requires no more than 3 minutes of onboarding. **(Usability)**
+- **NFR3** The system should load within 3 seconds. **(Reliability)**
