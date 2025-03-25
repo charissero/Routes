@@ -3,7 +3,7 @@
 ## User Needs
 
 ### User stories - A brief user stories to explain how various actors would interact with the system to accomplish a goal.
-1. As an international student, I want to recieve different personalised routes I canexplore different parts of bristol in my day to day life 
+1. As an international student, I want to recieve different routes to get home so I can explore different parts of bristol in my day to day life 
 2. As a beginner, I want to know be aware of low traffic areas, so I can practise riding in a quiter environement and feel more confident doing so 
 3. As a worker that cycles to and from my workplace, I want to take the quiet route through the park I took last Wednesday to peacefully reflect on my day as I go home - Charisse
 
