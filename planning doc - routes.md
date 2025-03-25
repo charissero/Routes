@@ -63,7 +63,7 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 - The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
 2. An inital form for collecting onboarding user information
-3. Past saved routes that the user can request again
+3. Past saved routes that the user has previously ridden (stored locally on the device)
    
 >Data handling :
 
@@ -82,9 +82,10 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 
 > Elements that are *not* in scope:
 1. An explore page with AI reccomended routes will not be included in this iteration
-2. Integration of weather and landscape elevation API'S will not be included in this iteration
-3. Users will not be able to manually design and save their own routes in this iteration
-4. Turn-by-turn navigation will not be included in this iteration
+2. A log-in and authentication system will not be included in this iteration
+3. Integration of weather and landscape elevation API'S will not be included in this iteration
+4. Users will not be able to manually design and save their own routes in this iteration
+5. Turn-by-turn navigation will not be included in this iteration
 
 The context diagram below describes all the elements in scope and elements that will influence the app :
 ![IMG_2690](https://github.com/user-attachments/assets/e18f7b10-c62c-43ac-9a33-4e94c66cb301)
