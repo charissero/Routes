@@ -22,7 +22,7 @@
 
 | **Actors** | International student (beginner level cyclist) |
 
-| **Assumptions** | 1. User is signed in 2. User's home address is in the database already as part of onboarding 2. App supports geolocation(to find out where they are currently) 2. Geolocation access granted during onboarding (while app is in use)|
+| **Assumptions** | 1. User's home address is in the database already as part of onboarding 2. App supports geolocation(to find out where they are currently) 3. Geolocation access granted during onboarding (while app is in use)|
 
 | **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
               2. System will request to use the user's current location via a popup, prompting user to "allow" or "don't allow"
@@ -45,40 +45,27 @@
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
-| UC2 | UC2: Revisiting a past saved route| Author: Charisse Oppon |
+| UC2 | UC2: Managing Past Saved Routes| Author: Charisse Oppon |
 
 | -------------------------------------- | ------------------- |
 
-| **Description** | As a worker that cycles to and from my workplace, I want to take the quiet route through the park I took last Wednesday, to peacefully reflect on my day as I go home |
+| **Description** | I want to view the quiet route through the park I took last Wednesday and either take it again or delete it from my user profile |
 
 | **Actors** | Worker (intermediate cyclist) |
 
-| **Assumptions** | 1. User is signed in 2. User's home postcode in database already as part of onboarding 2. App supports geolocation 2. Geolocation access granted during onboarding (while app is in use)|  |
+| **Assumptions** | 1.User's home postcode in database already as part of onboarding 2. App supports geolocation 3. Geolocation access granted during onboarding (while app is in use)|  |
 
-| **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
-              2. System will retrieve the requested past saved route from User profile 
-              4. Format and display the saved past route details i.e  route name i.e Avon cycle way and their current + destination adresses with a visual map of the route.
-              5. Prompt User to accept or decline route 
-              6. If route was accepted, save route on users profile - on User profile save as 
-                 "Route taken again on (date)" |
+| **Steps** | 1. System displays past saved routes stored locally (found in the profile).
+              2. System expands selected past route details in a popup), including details from the preview and two extra buttons : "Take this route again" or "Delete saved route" 
+              3. System will load the screen with the selected route and save the route as "Route taken again on (date)"- If user selects "Take this route again".          
               
-| **Variations** | 2. Past saved route not recognised from the past saved database
-                   3. Route doesn't have a route name 
-                   4. User declines route |
+| **Variations** | 2. No past saved routes found (i.e no routes have been accepted yet)
+                   3. User selects "Delete saved route" |
                    
-| **Non-functional** | 2. The system should display "Past saved route not found, please try again". 
-                       3. System should display "Unamed route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route.
-                       5. The system should display prompt pop-up "Not accurate to requested" if selected, system should repeat step 2, display the route and prompt for user to accept or decline route. |
+| **Non-functional** | 2. System should display "No saved routes at the moment"
+                       3. System should display "Route succesfully deleted"|
                           
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
-
-UC: merge with the viewing of the past saved routes. Manage Past Saved Routes; basically when they click on "Alex" i.e their user profile
-
-User navigates to the past saved routes section.
-
-User can select a route to view details.
-
-User can delete a route if they no longer need it.
 
 TODO: Your Use-Case diagram should include all use-cases.
 
