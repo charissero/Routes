@@ -15,7 +15,6 @@
 ### Use Cases - description of usecases ID'd by UC1, UC2 etc
 
 | UC1 | UC1: Requesting to cycle on a path in an urban area | Author: Charisse Oppon |
-
 | -------------------------------------- | ------------------- |
 
 | **Description** | As part of my explorations, today I want to cycle through an urban park as I go home |
