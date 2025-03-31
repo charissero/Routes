@@ -15,32 +15,20 @@
 ### Use Cases - description of usecases ID'd by UC1, UC2 etc
 
 | UC1 | UC1: Requesting to cycle on a path in an urban area | Author: Charisse Oppon |
-| -------------------------------------- | ------------------- |
-
+| -------------------------------------- | ---------|---------- |
 | **Description** | As part of my explorations, today I want to cycle through an urban park as I go home |
-
 | **Actors** | International student (beginner level cyclist) |
-
 | **Assumptions** | 1. User's home address is in the database already as part of onboarding 2. App supports geolocation(to find out where they are currently) 3. Geolocation access granted during onboarding (while app is in use)|
-
-| **Steps** | 1. System prompts the User with "Hi (name)! How are ya, what would you like today ?"
-              2. System will request to use the user's current location via a popup, prompting user to "allow" or "don't allow"
-              3. System will retrieve the nearest route details from the database that matches the criteria
-              4. System will format and display one option with route name i.e Avon cycle way and current + destination adresses and a visual map of the route from their current to their destination
-              5. Prompt User to accept or decline route 
-              6. If route was accepted, save route on users profile (without changing pages) |
-              
+| **Steps** | <ol><li>System prompts the User with "Hi (name)! How are ya, what would you like today ?"</li><li>System will request to use the user's current location via a popup, prompting user to "allow" or "don't allow"</li><li>System will retrieve the nearest route details from the database that matches the criteria</li><li> System will format and display one option with route name i.e Avon cycle way and current + destination adresses and a visual map of the route from their current to their destination</li><li>Prompt User to accept or decline route</li><li>If route was accepted, save route on users profile (without changing pages)</li></ol> |           
 | **Variations** | 2. User declines access to their currrent location
                    2. Users geolocation has been turned off (preventing pop up from appearing)
                    3. Users requested route criteria cannot be matched in the database 
                    4. Route doesn't have a route name 
-                   5. User declines route |
-                   
+                   5. User declines route |             
 | **Non-functional** | 2. The system should prompt the User to re-enable geolocation and guide them to the device’s settings.
                        3. The system should display "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on the option. 
                        4. System should display "Un-named route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route  
-                       5. The system should display 2 prompts in a pop-up i.e "Route doesn't match my criteria" and "Want a different option". Based on the option selected alter the route, display new route and prompt for user to accept or decline route. |
-                          
+                       5. The system should display 2 prompts in a pop-up i.e "Route doesn't match my criteria" and "Want a different option". Based on the option selected alter the route, display new route and prompt for user to accept or decline route. |                   
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
