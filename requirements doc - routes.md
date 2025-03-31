@@ -12,7 +12,7 @@
 
 ### Use Cases - description of usecases ID'd by UC1, UC2 etc
 
-| UC1 | UC1: Requesting to cycle on a path | Author: Charisse Oppon |
+| UC1 | UC1: Requesting to cycle a route | Author: Charisse Oppon |
 | -------------------------------------- | ---------|---------- |
 | **Description** | As part of my explorations, today I want to cycle through an urban park as I go home |
 | **Actors** | Cyclists (of all levels incl beginner) |
