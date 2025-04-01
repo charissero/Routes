@@ -51,9 +51,9 @@
 
 | UC2 | Authored by Charisse Oppon |
 |-----|----------------------------|
-|FR.1 The system **must** retrieve requested saved past route from User profile.||
-|FR.2 The system **must** send requested saved past route to the boundary results object.||
-|FR.3 The system **could** save the requested past route again (if accepted), to User profile as “Route taken again on (date)”.||
+|FR.1 System **must** display past saved routes from the user profile entity (locally saved)||
+|FR.2 System **must** expand selected past route details in a popup, including details from the preview and two extra buttons : "Take this route again" or "Delete saved route".||
+|FR.3 System **could** load the full  screen with the selected route and save the route as "Route taken again on (date)"- If user selects "Take this route again".||
 
 ### Non-Functional Requirements - Below is a list of quality constraints to meet user needs
 
