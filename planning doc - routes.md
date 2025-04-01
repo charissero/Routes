@@ -19,10 +19,6 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 - Users able to become fitter as they choose cycling with routes, which can help with any underlying conditions they may have or other goals 
 
->Premium features :
-
-- Offline mapping 
-
 ### Options Considered - Below are other options that were considered in order to solve the problem statement :
 1. An app that has elevation, traffic and weather insights to accurately advice users on what is ahead and give them advice on how best to approach the journey including planned pitstops.
 2. An app with insights into each users health history and current live metrics, of which *Routes* would then suggest the best route for - considering any terrain challenges ahead.
@@ -45,20 +41,27 @@ Cyclists in the hilly region of Bristol may face different unexpected physical s
 
 ## Project Scope
 >Purpose :
+
 - This app is designed to provide personalised travel assistance based on the users riding preferance that day, with a bank full on diverse routes waiting to be riden.
 
 >Audience :
-- The target users for this app is bristolians of all abilities, whether advanced cyclists or beginners, whether young or old etc
+
+- The target users for this app is bristolians cyclists of all abilities, whether advanced cyclists or beginners etc
+
+>Technology :
+
+- The app will be developed using :
+1. **HTML & JavaScript** programming lanaguges for the user interface, route display and interaction
+2. **CSS** for stylesheets/design
+3. The app will use a **Sustrain Cycle Networks dataset from Open Data Bristol** to provide route recommendations based on user-specific constraints.
 
 >Functionality :
-- During onboarding the app will allow users to....
-  1. Input their user contact information i.e name, number, emergancy contact(name and number), home address (with a tix box functionality giving permission for their data being stored locally on this device)
-  2. Grant access to geolocation (while app is in use)
 
- - Opendata Bristol 
-The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to provide route recommendations based on user-specific constraints.
+- During onboarding the app will allow users to....
+  1. Input their user contact information **contributing to the user database** i.e name, number, emergancy contact(name and number), home address (with a tix box functionality giving permission for their data being stored locally on this device). The information will be stored locally on their user profile entity.
+  2. Grant access to geolocation (while app is in use)
    
->Interface : 
+>Interface :
 
 - The app interface will feature :
 1. A fun yet simple layout that is compatible with geolocation and ensures ease of use with adjustements availble like changing font size etc
@@ -67,14 +70,9 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
    
 >Data handling :
 
-- Collect, process, store and use user data responsibly in alignement with data privacy laws
-
->Technology :
-
-- The app will be developed using :
-1. HTML & JavaScript programming lanaguges for the user interface, route display and interaction
-2. CSS for stylesheets/design
-
+- Collect, process, store and use user data responsibly in alignement with **data privacy laws**
+- The open data **government license** will be used for the selected data
+  
 >Maintenance : 
 
 1. Maintainer to update the app (with any changes in laws, cycle network data set etc) and manage the app 
@@ -87,8 +85,9 @@ The app will use a Sustrain Cycle Networks dataset from Open Data Bristol to pro
 4. Users will not be able to manually design and save their own routes in this iteration
 5. Turn-by-turn navigation will not be included in this iteration
 
->The context diagram below describes all the elements in scope and elements that will influence the app :
-![Context Diagram-1 (2)](https://github.com/user-attachments/assets/b064d20f-ad28-4cbb-a6b7-89834dce6569)
+### **Context Diagram - The context diagram below describes all the elements in scope (that will influence the app) :**
+
+![Context Diagram-1 (5)](https://github.com/user-attachments/assets/c4da9f9b-34d3-4039-9527-05f4c8658ee6)
 
 
 
