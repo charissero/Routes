@@ -7,7 +7,7 @@
 2. As a beginner, I want to know of low traffic areas, so I can practise riding in a quiter environement
 3. As a worker that cycles to and from my workplace, I want to view and ride the quiet route through the park I took last Wednesday to peacefully reflect on my day as I go home 
 
-### Actors
+### Actors - i.e who interacts with the system externally
 1. Cyclists (of all levels incl beginner)
 
 ### Use Cases - description of usecases ID'd by UC1, UC2 etc
@@ -33,32 +33,31 @@
 | **Non-functional** |<ol><li>System should display "No saved routes at the moment".</li><li>System should display "Route succesfully deleted" and delete the route from 'Past saved routes' section.</li></ol>          
 | **Issues** | N/A |
 
-TODO: Your Use-Case diagram should include all use-cases.
+## Use Case Diagram : Including all the usecases
+- please zoom in if needed
+![Untitled Notebook-1 (2)](https://github.com/user-attachments/assets/ef1734cb-c2d8-4381-b71b-76c32c042ddc)
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
 
 ## Software Requirements Specification
-### Functional requirements
+### Functional requirements - Below is a list of system constraints
 
 | UC1 | Authored by Charisse Oppon |
-
-- FR.1 The system **must** retrieve nearest route details that matches criteria from database ‘Open data Bristol’.
-- FR.2 The system **must** format retrieved route name i.e Avon cycle way from the 'Open data Bristol' database and their current + destination adresses with a visual map of the route.
-- FR.3 The system **should** send formatted route details to the boundary results object.
-- FR.4 The system **should** save the route details (if accepted) to User profile entity.
+|------|---------------------------|
+|FR.1 The System **must** request to use the user's current location via a popup.||
+|FR.2 The system **must** retrieve nearest route details that matches criteria from database ‘Open data Bristol’.||
+|FR.3 The system **must** format retrieved route name i.e Avon cycle way from the 'Open data Bristol' database and their current + destination adresses with a visual map of the route.||
+|FR.4 The system **should** send formatted route details to the boundary results object.||
+|FR.5 The system **should** save the route details (if accepted) to User profile entity.||
 
 | UC2 | Authored by Charisse Oppon |
+|-----|----------------------------|
+|FR.1 The system **must** retrieve requested saved past route from User profile.||
+|FR.2 The system **must** send requested saved past route to the boundary results object.||
+|FR.3 The system **could** save the requested past route again (if accepted), to User profile as “Route taken again on (date)”.||
 
-- FR.1 The system **must** retrieve requested saved past route from User profile.
-- FR.2 The system **must** send requested saved past route to the boundary results object.
-- FR.3 The system **could** save the requested past route again (if accepted), to User profile as “Route taken again on (date)”.
-
-### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-Indicate which UC the requirement comes from 
+### Non-Functional Requirements - Below is a list of quality constraints to meet user needs
 
 Global non-function requirements : (not tied to a specific UC)
 - **NFR1:** All user data (e.g., geolocation, home address, number etc) **must** be encrypted both whilst being transferred and when stored in the database. **(Security)**
 - **NFR2**: The system **should** provide a simple user interface that requires no more than 3 minutes of onboarding. **(Usability)**
-- **NFR3** The system should load within 3 seconds. **(Reliability)**
+- **NFR3** The user request must be accurately reflected in the systems suggested route output otherwise an alternative solution should be given. **(Reliability)**
