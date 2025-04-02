@@ -30,4 +30,4 @@ UC2
 - If the User selects "Delete saved route", the system should remove the saved past route from the profile entity and display a pop-up message noted "Past saved route has been succesfully deleted".
 
 ## Wireframe/Wireflow - Please zoom in if needed.
-![Routeswireflow](https::github.com/user-attachments/assets/360e74e4-db27-43d8-ac45-486c5f6cf3f5)
+![Routeswireflow](https://github.com/user-attachments/assets/1fe2830d-0483-4670-9f61-e9b17a095308)
