@@ -19,5 +19,15 @@ Starting from their user profile entity labelled as (their name) : The user clic
 ## How the System will handle variations and Non-Functional Considerations
 While the wireflow primarily illustrates the standard process, **variations** noted in the requirements such as unavailable routes, declined location access, or user-requested modifications will be handled through contextual UI elements like pop-ups, inline messages, and alternative route suggestions, ensuring a seamless user experience.
 
+UC1
+- If the user has turned off their geolocation access should prompt the User to re-enable geolocation via a popup icon with the message "re-enable geolocation" which once clicked will take them to the device settings (there will also be an x to exit from the popup).
+- If the requested route cannot be found the system should display a popup icon with the message "This route cannot be found, what about Route 1.x, Route 2.x or 3.x routes" suggesting three similar routes that can be found in the database and prompt the user to accept one of the routes by clicking on that option, this will then load the route details on the home page as the full screeen.
+- If the requested route doesn't have a name the system should display "Un-named route", the characteristic and the status i.e. Un-named route, cycle path in an urban area and traffic free route.
+- If the user declines the route suggested by the system, the system should display 2 prompts in a pop-up i.e "Route doesn't match my criteria" and "Want a different option". Based on the option selected alter the route, display new route and prompt for user to accept or decline route in a new popup.
+
+UC2	
+- If there are no past saved routes yet the system should display a text in that section notes "No past saved routes" (i.e no routes have been accepted yet).
+- If the User selects "Delete saved route", the system should remove the saved past route from the profile entity and display a pop-up message noted "Past saved route has been succesfully deleted".
+
 ## Wireframe/Wireflow - Please zoom in if needed.
-![Routeswireflow](https://github.com/user-attachments/assets/360e74e4-db27-43d8-ac45-486c5f6cf3f5)
+![Routeswireflow](https::github.com/user-attachments/assets/360e74e4-db27-43d8-ac45-486c5f6cf3f5)
