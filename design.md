@@ -13,15 +13,10 @@ Route Suggestions: Once the user clicks the location icon or enters their locati
 - Once the route has been accepted by the user, the user will be taken to the home page (**splash page**) where the route details will be on the full screen.
 
 # UC2
-Starting from their user profile entity labelled as (their name) : The user clicks a past saved route, which will then expand with the preview,
+Starting from their user profile entity labelled as (their name) : The user clicks a past saved route, which will then expand with details from the preview, the starting + final location and two extra buttons : "Take this route again" or "Delete saved route".
+- If the user clicks **"Take this route again"**, the system will load to the home page with the user's selected route, a map image, and their starting and finishing destination on the full screen.
 
-
-4. Summary
-Wrap up with a final sentence reinforcing the wireflow’s purpose:
-
-This wireflow ensures a smooth user experience by guiding cyclists through route selection and past route management while accounting for various user actions and system responses.
-
-##Handling Variations and Non-Functional Considerations
+## How the System will handle variations and Non-Functional Considerations
 This design incorporates both the primary user flows and key variations outlined in the requirements. While the wireflow primarily illustrates the standard process (e.g., selecting and confirming a route), it also accounts for alternative scenarios such as unavailable routes, declined location access, or user-requested modifications. These variations are handled through contextual UI elements like pop-ups, inline messages, and alternative route suggestions, ensuring a seamless user experience. For detailed logic and system responses, refer to the Requirements Specification.
 
 ## Wireframe/Wireflow - Please zoom in if needed.
