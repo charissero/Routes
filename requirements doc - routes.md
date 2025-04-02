@@ -28,7 +28,7 @@
 | **Description** | I want to view the quiet route through the park I took last Wednesday and either take it again or delete it from my user profile |
 | **Actors** | Cyclists (of all levels incl beginner) |
 | **Assumptions** | <ol><li>User's home postcode in database already as part of onboarding.</li><li>App supports geolocation.</li><li>Geolocation access granted during onboarding (while app is in use).</ol></li>|
-| **Steps** | <ol><li>System displays past saved routes stored locally (found in the profile).</li><li>System expands selected past route details in a popup, including details from the preview, the starting + final location and two extra buttons : "Take this route again" or "Delete saved route".</li><li>System will load the screen with the selected route and save the route as "Taken again on (date)"- If user selects "Take this route again".</li></ol> |                     
+| **Steps** | <ol><li>System displays past saved routes stored locally (found in the profile).</li><li>System expands selected past route details in a popup, including details from the preview, the starting + final location and two extra buttons : "Take this route again" or "Delete saved route".</li><li>System will load to the home page with the selected route and save the route on the user profile as "Taken again on (date)"- If user selects "Take this route again".</li></ol> |                     
 | **Variations** | <ol><li> No past saved routes found (i.e no routes have been accepted yet).</li><li>User selects "Delete saved route".</li></ol> |         
 | **Non-functional** |<ol><li>System should display "No saved routes at the moment".</li><li>System should display "Route succesfully deleted" and delete the route from 'Past saved routes' section.</li></ol>          
 | **Issues** | N/A |
@@ -53,7 +53,7 @@
 |-----|----------------------------|
 |FR.1 System **must** display past saved routes from the user profile entity (locally saved)||
 |FR.2 System **must** expand selected past route details in a popup, including details from the preview, the starting + final location and two extra buttons : "Take this route again" or "Delete saved route".||
-|FR.3 System **could** load the full  screen with the selected route and save the route as "Route taken again on (date)"- If user selects "Take this route again".||
+|FR.3 System **could** load to the home page with the selected route and save the route on the user profile as "Taken again on (date)"- If user selects "Take this route again".||
 
 ### Non-Functional Requirements - Below is a list of quality constraints to meet user needs
 
