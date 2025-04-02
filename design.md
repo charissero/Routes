@@ -1,6 +1,6 @@
-# Design
+# Design - documentation and wireframe/flow
 
-## Design explanation : Below describes the user journey for requesting a cycling route (UC1) and managing past saved routes (UC2) within the app, illustrated in the wireflow/wireframe. 
+### Design explanation : Below describes the user journey for requesting a cycling route (UC1) and managing past saved routes (UC2) within the app, illustrated in the wireflow/wireframe. 
 - There is also additional notation to account for how variations can be illustrated in alignment with the requirements.
    
 # UC1
@@ -17,7 +17,7 @@ Starting from their user profile entity labelled as (their name) : The user clic
 - If the user clicks **"Take this route again"**, the system will load to the home page with the user's selected route, a map image, and their starting and finishing destination on the full screen.
 
 ## How the System will handle variations and Non-Functional Considerations
-This design incorporates both the primary user flows and key variations outlined in the requirements. While the wireflow primarily illustrates the standard process (e.g., selecting and confirming a route), it also accounts for alternative scenarios such as unavailable routes, declined location access, or user-requested modifications. These variations are handled through contextual UI elements like pop-ups, inline messages, and alternative route suggestions, ensuring a seamless user experience. For detailed logic and system responses, refer to the Requirements Specification.
+While the wireflow primarily illustrates the standard process, **variations** noted in the requirements such as unavailable routes, declined location access, or user-requested modifications will be handled through contextual UI elements like pop-ups, inline messages, and alternative route suggestions, ensuring a seamless user experience.
 
 ## Wireframe/Wireflow - Please zoom in if needed.
 ![Routeswireflow](https://github.com/user-attachments/assets/360e74e4-db27-43d8-ac45-486c5f6cf3f5)
